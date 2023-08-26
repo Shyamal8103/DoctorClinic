@@ -20,6 +20,7 @@ export default function Login() {
     let res=await axios.post(" http://apps.codebetter.in:8082/clinic/auth/login",ob)
     if(res.status){
       dispatch(doc({...res.data}))
+      console.log(res)
       res.data.type=='doctor'?navigate('/DoctorHome'):navigate('/receptionHome')
     }
   }

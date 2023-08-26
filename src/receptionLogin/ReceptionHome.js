@@ -9,8 +9,6 @@ export default function ReceptionHome(){
                         <h1 class="display-4">Make An Appointment For Your Family</h1>
                     </div>
                     <p class="mb-5">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
-                    <a class="btn btn-primary rounded-pill py-3 px-5 me-3" href="">Find Doctor</a>
-                    <a class="btn btn-outline-primary rounded-pill py-3 px-5" href="">Read More</a>
                 </div>
                 
             </div>

@@ -21,9 +21,13 @@ export default function ReceptionList(){
     }
     
     const removeReception=async(ob)=>{
-        const response=await axios.put(`http://apps.codebetter.in:8082/clinic/api/reception/delete/${ob.id}`,{headers:{Authorization:`Bearer ${token}`}})
+        const confir=window.confirm("Are You Sure to delete this Receptionist")
+        if(confir){
+        const response=await axios.put(`http://apps.codebetter.in:8082/clinic/api/reception/delete/${ob.id}`,null,{headers:{Authorization:`Bearer ${token}`}})
+        
+        console.log(token)
         console.log(response)
-        dispatch(removeListItems(ob.id))
+        dispatch(removeListItems(ob.id))}
     }
 
     const editListdata=(ob)=>{

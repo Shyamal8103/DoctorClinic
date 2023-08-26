@@ -15,4 +15,10 @@ const store=configureStore({
     }
 })
 
+store.subscribe(()=>{
+    const data=store.getState().dData.value
+    const savedata=JSON.stringify(data)
+    localStorage.setItem("storedata",savedata)
+})
+
 export default store

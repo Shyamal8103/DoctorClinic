@@ -38,8 +38,8 @@ export default function App(){
       <Route path="/Services" element={<Services/>}/>
       <Route path="/Login" element={<Login/>}/>
       <Route path="/Register" element={<Register/>}/>
-      <Route path="*" element={<WrongURL/>}/>
       </>}
+      <Route path="*" element={<WrongURL/>}/>
     </Routes>
     <Footer/>
   </div>

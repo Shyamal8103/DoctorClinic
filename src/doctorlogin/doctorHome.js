@@ -6,7 +6,7 @@ export default function DoctorHome(){
     const doctorDetail=useSelector(state=>state.dData.value)
     
     return <><div>
-    <div><img src="./public/img/doctor.png" alt="erroe in loading image" /></div>
+    {/* <div><img src="./public/img/doctor.png" alt="erroe in loading image" /></div> */}
         <div className="container d-flex justify-content-center mt-5" >
             <div className="sub-container mt-5">
         <h1 className="text-center text-primary">Welcome Dr. {doctorDetail.data.name}</h1>
